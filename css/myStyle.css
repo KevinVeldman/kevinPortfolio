@@ -1,0 +1,103 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+p, div {
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+  margin-bottom:30px;
+}
+.infoBox{
+  width:100%;
+  padding:10px;
+  border-radius:10px;
+  background-color:  rgba(255, 255, 255, 0.3);
+  margin-bottom: 5px;
+}
+.infoBox .text{
+  padding-left: 10px;
+  border-left: 1px solid #080808;
+}
+.infoBox a{
+  color: #333;
+}
+.infoBox a:hover{
+  text-decoration: none;
+  color: #333;
+}
+.infoBox a:active{
+  text-decoration: none;
+  color: #333;
+}
+.infoBox .glyphicon{
+    padding-right: 10px;
+}
+
+#header{
+  text-align: center;
+  padding: 80px;
+  background-image: url("../img/Desk.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-position: bottom;
+}
+#header .jumbotron{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.navbar-nav a{
+  color:#D3D3D3;
+}
+.nav .navbar-nav > li > a:hover{
+    background-color: #111111;
+    border-radius: 10px;
+}
+.nav .navbar-nav > li > a{
+  transition: background-color 0.8s ease;
+  border-radius: 10px;
+  margin:10px;
+}
+.container{
+  margin-bottom:50px;
+}
+.nav{
+  margin:20px;
+}
+.spacer{
+  height:50px;
+  background: linear-gradient(to right bottom, #080808 49%, #F2CB9A 50%);
+}
+.spacer2{
+  height:50px;
+  background: linear-gradient(to right bottom, #F2CB9A 49%, #080808 50%);
+}
+#skills{
+  background-color: #080808;
+}
+#whoAmI{
+  background-color: #F2CB9A;
+}
+#header .jumbotron h1{
+  font-size: 60px;
+}
+#header .jumbotron p{
+  font-size: 20px;
+}
+#header .jumbotron .btn-secondary{
+  border-radius: 10px;
+  transition: background-color 0.8s ease;
+  background-color: #292E37;
+  color:white;
+  font-size: 20px;
+}
+#header .jumbotron .btn-secondary:hover{
+  border-radius: 10px;
+  background-color: #5b667a;
+}
+#containerHeight{
+  height: 500px;
+}
